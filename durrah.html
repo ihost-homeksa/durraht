@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta name="csrf-token" content="hYQ6qy9y36m9GnwwN1UyoU8yCaGQqR4ueEpT4h9U" />
+
+    <title>صلاحية العقد - تطبيق إثمار الإلكتروني</title>
+
+    <link rel="stylesheet" href="https://ihost-homeksa.com/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://ihost-homeksa.com/css/front-end.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://ihost-homeksa.com/icons/elegant-icons.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://ihost-homeksa.com/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://ihost-homeksa.com/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://ihost-homeksa.com/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://ihost-homeksa.com/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://ihost-homeksa.com/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://ihost-homeksa.com/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://ihost-homeksa.com/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://ihost-homeksa.com/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ihost-homeksa.com/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://ihost-homeksa.com/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ihost-homeksa.com/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://ihost-homeksa.com/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ihost-homeksa.com/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://ihost-homeksa.com/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fdcb6e">
+    <meta name="msapplication-TileImage" content="https://ihost-homeksa.com/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fdcb6e">
+
+    <script src="https://ihost-homeksa.com/js/jquery.min.js"></script>
+    <script src="https://ihost-homeksa.com/js/bootstrap.min.js"></script>
+    <script src="https://ihost-homeksa.com/js/swal.min.js"></script>
+    <script src="https://ihost-homeksa.com/js/scripts.js"></script>
+
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+
+    <style>
+        #counter {
+            font-size: 25px;
+            font-weight: bolder;
+            color: #2196f3;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 0 10px rgb(255 255 255 / 50%) !important;
+            -webkit-box-shadow: 0 0 10px rgb(255 255 255 / 50%) !important;
+            -moz-box-shadow: 0 0 10px rgb(255 255 255 / 50%) !important;
+            -o-box-shadow: 0 0 10px rgb(255 255 255 / 50%) !important;
+        }
+    </style>
+</head>
+
+<body class="hold-transition" id="dvImage" style="background-attachment: fixed;width: 100%;background-image:url('https://ihost-homeksa.com/images/bg1.jpg');background-size: cover;background-repeat: no-repeat;background-position: center center;min-height: 100vh;margin: 0">
+
+<div id="ithmar-preloader">
+    <img src="https://ihost-homeksa.com/images/ithmar-logo.png" alt="Ithmar Logo" />
+</div>
+
+<div class="overlay"></div>
+
+<header style="margin-bottom: 50px;">
+    <nav class="navbar navbar-icon-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand" href="https://ihost-homeksa.com">
+                <a href="https://ihost-homeksa.com">
+                    <img src="https://ihost-homeksa.com/images/ithmar-logo.png" alt="Durrah" />
+                </a>
+            </div>
+
+            <div class="main-nav">
+                <ul class="navbar-nav main-nav-menu mr-auto"></ul>
+                <ul class="navbar-nav notifications-bar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ihost-homeksa.com">
+                            <i class="fa-icon fa fa-user-o"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+</div>
+
+<div id="app"></div>
+
+<div class="container" style="min-height: calc(100vh - 200px);">
+    <div class="card">
+        <div class="card-body text-center">
+            <h3>صلاحية العقد</h3>
+            <h5 class="subheader" style="color: #cccccc">يمكنك الإطلاع على حالة العقد بالاسفل.</h5>
+
+            <div class="alert alert-success alert-dismissible new2 p-4" role="alert">
+                <i class="alert-icon icon_check_alt2" aria-hidden="true"></i>
+
+                <div class="alert-body">
+                    <h4 class="mt-2">هذا العقد فعال</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: rgba(255,255,255,.75);border-radius: 50px 50px 0 0;text-align: center;margin-top: 25px;padding: 10px;">
+    <a class="floating-whatsapp" target="_blank" href="https://wa.me/+966548408369">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer id="footer" style="height: 50px;font-size:12px;display: flex;align-items: center;justify-content: center;">
+        <span>
+            <img src="https://ihost-homeksa.com/images/logo-footer2.png" alt="First Platinum Logo" />
+        </span>
+    </footer>
+</div>
+
+<script src="https://kit.fontawesome.com/156ca9ced9.js" crossorigin="anonymous"></script>
+<script src="https://js.pusher.com/7.2/pusher.min.js"></script>
+
+<script>
+    $('.alert-dismissible .close-button').on('click', function(e) {
+        e.preventDefault();
+        $(this).parents('.alert').fadeOut()
+    })
+
+    $('.tooltip-container').tooltip();
+</script>
+</body>
+</html>
